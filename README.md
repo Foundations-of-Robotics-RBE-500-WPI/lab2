@@ -28,15 +28,29 @@ Clone the GitHub lab2 repository using the following command:
 git clone git@github.com:Foundations-of-Robotics-RBE-500-WPI/lab2.git
 ```
 
-Then change directory to your generated folder `lab2`
+Then, change directory to your generated folder `lab2`
 ```
 cd lab2
 ```
 
+Check your current branch by typing:
+```
+git branch
+```
+
+You should see the name of the current pulled branch `main`.
+
+After, create a new branch with your WPI username which is similar to your USERNAME including the `feature/` at the beggining (example, feature/alioulemes)
+
+Thus, type:
+```
+git checkout -b feature/USERNAME
+```
+
 Now add a new python program that prints `Hello World!`
 
-Add this file tp the `lab2` repository folder and sync it with GitHub using the following command
+Add this file to the `lab2` repository folder and sync it with GitHub using the following command:
 ```
 git add .
-git commit−m ‘‘First Commit’’
+git commit −m `First Commit`
 git push
