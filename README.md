@@ -20,7 +20,7 @@ You can further secure your SSH key by using a hardware security key, which requ
 Next configure your username and email with Git using the below commands: 
 ```
 git config −−global user.name GITHUBUSERNAME
-git config −−global user . email GITHUB EMAIL
+git config −−global user.email GITHUB EMAIL
 ```
 
 Clone the GitHub lab2 repository using the following command: 
