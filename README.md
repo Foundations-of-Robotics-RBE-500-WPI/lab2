@@ -3,7 +3,7 @@
 The easiest way to upload code to GitHub is to use the ssh key. The following command can generate a new SSH key:
 
 ```
-ssh -keygen
+ssh-keygen
 ```
 
 The generated public key is stored at: `/.ssh/id rsa.pub`
