@@ -6,11 +6,11 @@ The easiest way to upload code to GitHub is to use the ssh key. The following co
 ssh-keygen
 ```
 
-The generated public key is stored at: `/.ssh/id rsa.pub`
+The generated public key is stored at: `~/.ssh/id_rsa.pub`
 
 You can view your public key with the following command:
 ```
-cat /.ssh/id rsa.pub
+cat ~/.ssh/id rsa.pub
 ```
 
 Add this public key to your GitHub account using the following steps: `GitHub → Settings → SSH and GPG Keys → New SSH Key → Add your generated public Key → Save.`
